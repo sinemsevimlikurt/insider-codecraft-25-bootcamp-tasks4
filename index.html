@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modern Family - Dizi Tanıtımı</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="./src/images/modern-family-poster.png" alt="Modern Family Poster" />
+      <h1>Modern Family</h1>
+    </div>
+    <nav>
+      <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+      <ul id="nav-links">
+        <li><a href="#home">Ana Sayfa</a></li>
+        <li><a href="#episodes">Bölümler</a></li>
+        <li><a href="#about">Hakkında</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Dizi Konusu</h2>
+      <p>Modern Family, Steven Levitan ve Christopher Lloyd tarafından yaratılan ve 23 Eylül 2009'dan 8 Nisan 2020'ye kadar 11 sezon boyunca ABC'de yayınlanan bir Amerikan televizyon durum komedisidir. Christopher Lloyd ve Steven Levitan tarafından yaratılan Modern Family , aile hayatının sevinçlerini ve zorluklarını deneyimleyen çok kuşaklı bir aile hakkındadır . Dizi, sahte bir belgesel veya "mockumentary , görünmeyen bir belgeselci tarafından filme alınmış gibi gösterilir. Gülme efekti olmayan tek kameralı bir gösteridir. Karakterler genellikle doğrudan kameraya bakar ve sanki röportaj yapılıyormuş gibi konuşurlar. Modern Family, topluluk kadrosuna sahiptir ve zekice yazımı ve aile hayatının mücadelelerinde hem sevgi hem de komedi bulan içten—asla alaycı olmayan—tonuyla bilinir.</p>
+      
+      <div class="characters-container">
+        <div class="characters">
+        <div class="card">
+          <img src="./src/images/phil.png" alt="Phil Dunphy">
+          <h3>Phil Dunphy</h3>
+          <p>Kaliforniya'da emlakçı. Ailesine düşkün, havalı bir baba olmaya çalışır.</p>
+        </div>
+        <div class="card">
+          <img src="./src/images/mitchell.png" alt="Mitchell Pritchett" class="mitchell">
+          <h3>Mitchell Pritchett</h3>
+          <p>Cam ile evli, Lily'nin babası. A tipi karakter ve biraz gergin.</p>
+        </div>
+        <div class="card">
+          <img src="./src/images/luke.png" alt="Luke Dunphy">
+          <h3>Luke Dunphy</h3>
+          <p>Yaramaz, masum. Babası Phil'e çekmiş, biraz boş kafalı.</p>
+        </div>
+        <div class="card">
+          <img src="./src/images/haley.png" alt="Haley Dunphy">
+          <h3>Haley Dunphy</h3>
+          <p>Popüler ama akademik olarak zayıf. Gençken Claire'e benzer.</p>
+        </div>
+        </div>
+      </div>
+
+      <h3>Favori Bölüm: "Olay"</h3>
+      <h4>1. Sezon, 4. Bölüm</h4>
+      <p>Bu bölümde, DeDe (Shelley Long) aileyi sarsan şovdaki unutulmaz çıkışını yapıyor. Jay ve Gloria'nın düğününde Phil (Ty Burrell), Mitchell (Jesse Tyler Ferguson) ve Cam (Eric Stonestreet) tarafından taşınmasına yol açan olaydan sonra, tüm aileden özür dilemek umuduyla şehre geliyor. Doğal olarak, isteği aileden bazıları, özellikle Gloria tarafından hoş karşılanmıyor. Ancak, ailenin çoğu düğünde olanları geride bırakmak istiyor ve aile yemeğinde işler şaşırtıcı derecede iyi gidiyor gibi görünüyor. Ta ki DeDe, Gloria'ya saldırarak düğünde yaptığı patlamayı tekrarlayana kadar. Bölümün inişli çıkışlı hikayesi, Haley'nin erkek arkadaşı Dylan'ın (Reid Ewing) aileye yakınlıkları ve kapsayıcılıkları için minnettar olmaları gerektiğini etkili bir şekilde hatırlatmasıyla sona eriyor.</p>
+      <h3>Trailer</h3>
+      <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/rbpTUPisA78?si=be6hwKmRRCdNAj6B"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+      </iframe>
+    </section>
+
+    <section id="episodes">
+      <h2>Bölüm Listesi</h2>
+      <div class="episodes-grid">
+        <div class="episode-card">
+          <img src="./src/icons/silver-star-icon.png" alt="Favorite" class="favorite-star" onclick="toggleFavorite(this)">
+          <h4>Don't Push (İtme)</h4>
+          <p>Alex'in üniversite turu, Phil ve Claire'in müdahaleleri.</p>
+        </div>
+        <div class="episode-card">
+          <img src="./src/icons/silver-star-icon.png" alt="Favorite" class="favorite-star" onclick="toggleFavorite(this)">
+          <h4>Family Portrait</h4>
+          <p>Claire'in aile fotoğraf günü karmaşaya döner.</p>
+        </div>
+        <div class="episode-card">
+          <img src="./src/icons/silver-star-icon.png" alt="Favorite" class="favorite-star" onclick="toggleFavorite(this)">
+          <h4>When a Tree Falls</h4>
+          <p>Cam ağaç kurtarır, Claire & Gloria alışverişte kopar.</p>
+        </div>
+        <div class="episode-card">
+          <img src="./src/icons/silver-star-icon.png" alt="Favorite" class="favorite-star" onclick="toggleFavorite(this)">
+          <h4>The Big Game</h4>
+          <p>Cam büyük maça odaklanırken Claire iş yerinde ispat peşinde.</p>
+        </div>
+        <div class="episode-card">
+          <img src="./src/icons/silver-star-icon.png" alt="Favorite" class="favorite-star" onclick="toggleFavorite(this)">
+          <h4>Written in the Stars</h4>
+          <p>Phil & Jay rol yapar, Mitch & Cam Luke'un buluşmasını sabote eder.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>Hakkında</h2>
+      <p>Bu site Sinem Sevimlikurt tarafından tasarlandı.</p>
+      <div class="socials-container">
+        <h3>Sosyal Medya</h3>
+        <div class="socials">
+          <a href="https://github.com/sinemsevimlikurt" target="_blank" class="social-icon github"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/sinem-sevimlikurt/" target="_blank" class="social-icon linkedin"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Modern Family Tanıtım</p>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
